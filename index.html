@@ -16,6 +16,13 @@
 
       main {
         padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      main .inner {
+        max-width: 800px;
       }
 
       p {
@@ -89,22 +96,23 @@
     </div>
 
     <main>
+      <div class="inner">
+        <h1>The Golden Gate Elixir Meetup</h1>
 
-      <h1>The Golden Gate Elixir Meetup</h1>
+        <p>
+          Our inaugural meetup will be held in early 2024 in Oakland, California. Check back later for more details,
+          or contact us at <a href="mailto:admin@gogalixir.com">admin@gogalixir.com</a>.
+        </p>
 
-      <p>
-        Our inaugural meetup will be held in early 2024 in Oakland, California. Check back later for more details,
-        or contact us at <a href="mailto:admin@gogalixir.com">admin@gogalixir.com</a>.
-      </p>
-
-      <p class="footer">
-        &copy; 2024 Golden Gate Elixir Meetup.
-        The names &OpenCurlyDoubleQuote;Golden Gate Elixir&CloseCurlyDoubleQuote; and
-        &OpenCurlyDoubleQuote;Gogalixir&CloseCurlyDoubleQuote; are an homage to the legendary
-        <a href="https://github.com/gogaruco">Golden Gate Ruby Conference</a> (aka Gogaruco).
-        <a href="https://www.vecteezy.com/free-vector/golden-gate-bridge">Golden Gate Bridge Vectors by Vecteezy</a>
-        artist <a href="https://www.vecteezy.com/members/erwanwanto750414870">Erwanto</a>.
-      </p>
+        <p class="footer">
+          &copy; 2024.
+          The names &OpenCurlyDoubleQuote;Golden Gate Elixir&CloseCurlyDoubleQuote; and
+          &OpenCurlyDoubleQuote;Gogalixir&CloseCurlyDoubleQuote; are an homage to the legendary
+          <a href="https://github.com/gogaruco">Golden Gate Ruby Conference</a> (aka Gogaruco).
+          <a href="https://www.vecteezy.com/free-vector/golden-gate-bridge">Golden Gate Bridge Vectors by Vecteezy</a>
+          artist <a href="https://www.vecteezy.com/members/erwanwanto750414870">Erwanto</a>.
+        </p>
+      </div>
     </main>
   </body>
 
